@@ -21,11 +21,14 @@ $light-purple-color: lighten($purple-color, 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$my-brightbg-color: #fcf6f0;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
+$my-darkbg-color: #2b2e1d;
+$my-darkbg-text-color: #f9eff3;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
