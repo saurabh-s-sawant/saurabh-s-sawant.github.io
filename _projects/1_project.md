@@ -4,7 +4,7 @@ title: <span style="text-transform:uppercase;">A</span>daptive <span style="text
 description: Adaptive mesh refinement (AMR) strategy with octree grids for the Direct Simulation Monte Carlo (DSMC) method to solve Boltzmann equation of transport
 img: assets/img/project_amr_shocks/AMR.png
 importance: 1
-category: work
+category: Ph.D.
 related_publications: true
 ---
 

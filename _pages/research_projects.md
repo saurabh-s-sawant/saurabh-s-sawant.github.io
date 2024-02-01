@@ -2,10 +2,10 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Select research projects conducted during Ph.D. and postdoctoral studies.
+description: <p> Select research projects conducted during Ph.D. and postdoctoral studies <br> highlighting experience in the following&#58;</p> <ul>   <li>Scientific software development & High-performance computing <ul><li>using MPI, GPU, C++, Python for analysis</li> <li>scaling strategies, profiling & optimization</li> </ul></li>    <li>Quantum and classical charge transport in the next-generation transistors<ul><li>nonequilibrium Green's function (NEGF) method for electrons and phonons, electrostatics</li><li>parallel matrix-based algorithms using MPI, GPU, and the AMReX library</li></ul></li> <li> Kinetic transport in high temperature gas dynamics <ul> <li> direct simulation Monte Carlo (DSMC) method</li> <li>modeling of shock-wave/boundary-layer interactions</li> <li>adaptive mesh refinement (AMR) of octree grids</li> <li> parallel particle-based algorithms</li></ul></li> <li> Data-driven methods and stability theory for modal analysis in fluid dynamics <ul><li>Linear stability analysis (generalized eigenvalue problems)</li> <li>parallel communication reducing algorithms for proper-orthogonal and dynamic-mode decomposition</li> </ul> </li> </ul>
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
+display_categories: [Postdoc, Ph.D.]
 horizontal: false
 ---
 

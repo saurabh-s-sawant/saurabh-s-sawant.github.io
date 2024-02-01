@@ -1,3 +1,13 @@
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Scholar <br> Center for Computational Sciences and Engineering (CCSE)
+      institution: Lawrence Berkeley National Laboratory
+      location: Berkeley, CA
+      year: 2022 - Present
+      description: |
+        <a href="https://ccse.lbl.gov/people/saurabh/index.html">CCSE Webpage</a>
+
 - title: Education
   type: time_table
   contents:
@@ -13,12 +23,3 @@
       year: 2015
       description: | 
         <u>Thesis:</u> <a href="https://www.ideals.illinois.edu/items/124505"> Development of AMR/octree Direct Simulation Monte Carlo (DSMC) approach for shock-dominated flows </a>
-- title: Work Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral Scholar in Center for Computational Sciences and Engineering
-      institution: Lawrence Berkeley National Laboratory
-      location: Berkeley, CA
-      year: 2022 - Present
-      description: |
-        <a href="https://ccse.lbl.gov/people/saurabh/index.html">CCSE Webpage</a>
