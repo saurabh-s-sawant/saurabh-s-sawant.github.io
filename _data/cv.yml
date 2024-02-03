@@ -1,12 +1,40 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Postdoctoral Scholar <br> Center for Computational Sciences and Engineering (CCSE)
+    - title: Postdoctoral Scholar <br> Center for Computational Sciences and Engineering (<a href="https://ccse.lbl.gov/people/saurabh/index.html">CCSE</a>)
       institution: Lawrence Berkeley National Laboratory
       location: Berkeley, CA
       year: 2022 - Present
-      description: |
-        <a href="https://ccse.lbl.gov/people/saurabh/index.html">CCSE Webpage</a>
+      description: #|
+        - title: Scientific software development & High-performance computing 
+          contents:
+            - using <u>MPI, GPU, C++, Python</u> for analysis
+            - scaling, profiling, and performance optimization strategies
+        - title: Quantum and classical charge transport in the next-generation transistors (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>)
+          contents:
+            - nonequilibrium Green's function (<u>NEGF</u>) method for electrons and phonons
+            - electrostatics with <u>embedded boundaries</u>
+            - parallel <u>matrix-based algorithms</u> using MPI, GPU, and the AMReX library
+
+    - title: Graduate Research Assistant (Ph.D. & M.S.)
+      institution: University of Illinois Urbana-Champaign
+      location: Champaign, IL
+      year: 2014 - 2022
+      description: #|
+        - title: Scientific software development & High-performance computing
+          contents:
+            - using <u>MPI, GPU, C++, Python</u> for analysis
+            - scaling, profiling, and performance optimization strategies
+        - title: Kinetic transport in high temperature gas dynamics
+          contents:
+            - parallel <u>statistical algorithms</u>
+            - adaptive mesh refinement (<u>AMR</u>) of octree grids with <u>embedded boundaries</u>
+            - direct simulation Monte Carlo (<u>DSMC</u>) method
+            - modeling of shock-wave/boundary-layer interactions (<u>SWBLI</u>)
+        - title: Data-driven methods and stability theory for modal analysis in fluid dynamics
+          contents:
+            - <u>generalized eigenvalue problems</u> arising from linear stability analysis
+            - parallel <u>communication-reducing algorithms</u> for proper-orthogonal and dynamic-mode decomposition
 
 - title: Education
   type: time_table
