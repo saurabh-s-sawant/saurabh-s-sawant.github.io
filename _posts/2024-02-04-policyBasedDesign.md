@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Policy-Based Design &#58; A Customizable Message Logger in C++
 date: 2024-02-04 20:00:00
-description: an example of a blog post with some code
+description: an example of a customizable message logger with three policies 
 tags: generic_programming
 categories: code
 featured: false
