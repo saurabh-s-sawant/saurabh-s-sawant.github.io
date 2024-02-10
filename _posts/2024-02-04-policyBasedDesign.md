@@ -6,27 +6,32 @@ description: Message logger offers three policies&#58; directing log messages to
 tags: generic_programming
 categories: code
 featured: false
+giscus_comments: false
+related_posts: false
+toc:
+  sidebar: left
 ---
 
 Policy-based design is a versatile design pattern that underpins many useful features in modern C++, such as smart pointers. 
 Despite its resourcefulness, I never delved into it during my work developing scientific codes.Intrigued by its potential, I decided to explore its application by creating a simple message logger that could be customized to suit user needs. 
+[Here](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/design/policy_based_design/ex1_msglogger.cpp) is the github link to the code.
 
 Before diving into the specifics, let's review the context in which this design pattern shines.
 
-<span style="font-size: larger;"><b>**Overview**</b></span><br>
+### Overview
 Policy-based design serves as a compile-time counterpart to the well-known strategy pattern.
 It may be useful in scenarios where when we know the desired behavior ('what'), but do not know a single, definitive implementation ('how'). In essence, it allows for multiple 'how' implementations, offering flexibility for possible future enhancements or changes in requirements.
 
 This decoupling of desired behavior and implementation details enables developers to define various policies at compile-time, dictating different behaviors of a class.
 This approach provides a high degree of customization and adaptability, exemplified by features such as 'std::unique_ptr' allowing users to define custom deleters.
 
-<span style="font-size: larger;"><b>**Message Logger Example**</b></span><br>
+### Example Description
 Imagine we are developing a complex code, and we require an extensive logger to track the execution flow and to diagnose issues. We would like a message logger that can:
 - direct messages to different destinations such as console or a user-defined file
 - prepend the log message with some message stamp, such as a timestamp or a process id
 - allow users to pass custom callables for logging special data types or performing additional tasks
 
-<span style="font-size: larger;"><b>**Implementation Policies**</b></span><br>
+### Implementation Policies
 To achive these objectives, we will create 'MsgLogger' class with the following policies:
 
 1. StreamPolicy: dictates where the log messages will be directed. Implementations:
@@ -42,7 +47,7 @@ To achive these objectives, we will create 'MsgLogger' class with the following 
    - NoCallable: opts not to support a callable.
    - WithCallable: allows users to pass a user-defined callable such as a lambda function.
 
-<span style="font-size: larger;"><b>**Implementation Details**</b></span><br>
+### Implementation Details
 The 'MsgLogger' logger class combines these policies to offer a flexible solution.
 Users can combine these policies according to their need or add new implementations of these policies independently, making code reusable and maintainable.
 ```c++
@@ -165,7 +170,7 @@ struct WithCallable
 This implementation allows for invoking the forwarded callable and measuring its time. 
 Additionally, it checks if 'func' is empty to handle cases where no callable is provided. 
 
-<span style="font-size: larger;"><b>**Demonstration**</b></span><br>
+### Demonstration
 Let's demonstrate how to use the 'MsgLogger' class with different combinations of policies.
 ```c++
 int main()
@@ -225,7 +230,7 @@ The output written to 'file.dat' reads:
 [10:28:07.134284] Hello, this is file_logger!
 [10:28:07.134306] file_logger is logging...
 ````
-<span style="font-size: larger;"><b>**More**</b></span><br>
+### Further Exploration
 We have only scratched the surface of the power of this design pattern.
 Policies can extend beyond simple function objects and include template instantiations or even templates themselves. 
 Additionally, policy classes can be composed rather than inherited, which is useful if policies hold a state and need to be stored in the policy class.
@@ -239,7 +244,6 @@ However, it's important to note a major criticism of this design pattern. When d
 While this challenge can be mitigated by organizing policies thoughtfully and using policy adapters with aliases, it is worth considering in other possible design patterns that may be used instead.
  
 For further exploration and reading, please refer to:
-- [Code](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/design/policy_based_design/ex1_msglogger.cpp) described in this blog 
 - **Hands-On Design Patterns with C++** by Fedor Pikus
 - **Modern C++ Design: Generic Programming and Design Patterns Applied** by Andrei Alexandrescu
 - [Policy-based design in C++20](https://www.youtube.com/watch?v=fauJG1WEDUM) by Goran Arandjelović on Youtube
