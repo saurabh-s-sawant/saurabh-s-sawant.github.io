@@ -3,5 +3,8 @@ github_users:
 
 github_repos:
   - AMReX-Microelectronics/eXstatic
+  - AMReX-Microelectronics/artemis
   - saurabh-s-sawant/cpp_exercises 
   - saurabh-s-sawant/gpu_exer
+  - saurabh-s-sawant/POD_DMD
+  - saurabh-s-sawant/parallel-projection-solver 
