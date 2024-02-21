@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <span style="text-transform:uppercase;">A</span>daptive <span style="text-transform:uppercase;">M</span>esh <span style="text-transform:uppercase;">R</span>efinement 
+title: <span style="text-transform:uppercase;">A</span>daptive <span style="text-transform:uppercase;">M</span>esh <span style="text-transform:uppercase;">R</span>efinement for DSMC
 description: Adaptive mesh refinement (AMR) strategy with octree grids for the Direct Simulation Monte Carlo (DSMC) method to solve Boltzmann equation of transport
 img: assets/img/projects/amr/CollMesh_mod.gif
 importance: 1
