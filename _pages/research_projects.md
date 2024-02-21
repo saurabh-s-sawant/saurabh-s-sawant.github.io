@@ -5,7 +5,7 @@ permalink: /projects/
 description: <ul> <li>HPC & scientific software development experience</li><li> Ph.D. projects in the field of hypersonics</li> <li> Postdoctoral work in the field of nanoelectronics</li></ul></p> 
 nav: true
 nav_order: 3
-display_categories: [Postdoc, Ph.D.]
+display_categories: [Postdoc, Ph.D., fun]
 horizontal: false
 ---
 
