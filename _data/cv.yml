@@ -6,15 +6,15 @@
       location: Berkeley, CA
       year: 2022 - Present
       description: #|
-        - title: Scientific software development & High-performance computing 
+        - title: Scientific software development & <b>high-performance computing</b>
           contents:
-            - using <u>MPI, GPU, C++, Python</u> for analysis
-            - scaling, profiling, and performance optimization strategies
-        - title: Quantum and classical charge transport in the next-generation transistors (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>)
+            - using <b>MPI, GPU, C++, Python</b> for analysis
+            - <b>scaling, profiling, and performance optimization strategies</b>
+        - title: <b>Quantum charge transport</b> in the next-generation transistors (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>)
           contents:
-            - nonequilibrium Green's function (<u>NEGF</u>) method for electrons and phonons
-            - electrostatics with <u>embedded boundaries</u>
-            - parallel <u>matrix-based algorithms</u> using MPI, GPU, and the AMReX library
+            - nonequilibrium Green's function (<b>NEGF</b>) method for electrons and phonons
+            - electrostatics with <b>embedded boundaries</b>
+            - parallel <b>matrix-based algorithms</b> using MPI, GPU, and the <b>AMReX</b> library
 
     - title: Graduate Research Assistant (Ph.D. & M.S.)
       institution: University of Illinois Urbana-Champaign
@@ -23,18 +23,18 @@
       description: #|
         - title: Scientific software development & High-performance computing
           contents:
-            - using <u>MPI, GPU, C++, Python</u> for analysis
+            - using <b>MPI, GPU, C++, Python</b> for analysis
             - scaling, profiling, and performance optimization strategies
-        - title: Kinetic transport in high temperature gas dynamics
+        - title: <b>Kinetic transport</b> in high temperature gas dynamics
           contents:
-            - parallel <u>statistical algorithms</u>
-            - adaptive mesh refinement (<u>AMR</u>) of octree grids with <u>embedded boundaries</u>
-            - direct simulation Monte Carlo (<u>DSMC</u>) method
-            - modeling of shock-wave/boundary-layer interactions (<u>SWBLI</u>)
-        - title: Data-driven methods and stability theory for modal analysis in fluid dynamics
+            - parallel <b>statistical algorithms</b>
+            - adaptive mesh refinement (<b>AMR</b>) of octree grids with <b>embedded boundaries</b>
+            - direct simulation Monte Carlo (<b>DSMC</b>) method
+            - modeling of shock-wave/boundary-layer interactions (<b>SWBLI</b>)
+        - title: Data-driven methods and stability theory for <b>modal analysis</b> in hypersonic flows
           contents:
-            - <u>generalized eigenvalue problems</u> arising from linear stability analysis
-            - parallel <u>communication-reducing algorithms</u> for proper-orthogonal and dynamic-mode decomposition
+            - <b>generalized eigenvalue problems</b> arising from linear stability analysis
+            - parallel <b>communication-reducing algorithms</b> for proper-orthogonal and dynamic-mode decomposition
 
 - title: Education
   type: time_table
