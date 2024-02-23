@@ -4,7 +4,7 @@ title: <span style="text-transform:uppercase;">P</span>rojection <span style="te
 description: A C++ solver to calculate projection of 3D STL geometries on a user-defined plane
 img: assets/img/projects/projection_solver/projection1_Geom.png
 importance: 3
-category: fun
+category: small side projects
 related_publications: false
 ---
 

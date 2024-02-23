@@ -2,7 +2,7 @@
 layout: page
 title: <span style="text-transform:uppercase;">L</span>aminar <span style="text-transform:uppercase;">S</span>eparation <span style="text-transform:uppercase;">B</span>ubble <span style="text-transform:uppercase;">I</span>nstability
 description: Linear Instability of a 3-D Laminar Separation Bubble in Hypersonic (Mach 7) Shock-Wave/Boundary-Layer Interations (SWBLIs)
-img: assets/img/projects/lsb_instability/CurveFit_uy_42.png
+img: assets/img/publication_preview/sawant_doublewedge_2022.png
 importance: 2
 category: Ph.D.
 related_publications: true

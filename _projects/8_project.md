@@ -4,7 +4,7 @@ title: <span style="text-transform:uppercase;">M</span>odal <span style="text-tr
 description: A parallel solver using C++ and LAPACK for proper orthogonal and dynamic mode decomposition using communication reducing tall and skinny QR (TSQR) factorization algorithm
 img: assets/img/projects/dmd/f_orig.gif
 importance: 3
-category: fun
+category: small side projects
 related_publications: false
 ---
 
