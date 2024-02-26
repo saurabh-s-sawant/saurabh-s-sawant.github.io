@@ -10,8 +10,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Center for Computational Sciences and Engineering,</p>
-    <p>Lawrence Berkeley National Lab,</p>
+    <p>SaurabhSawant@lbl.gov</p>
+    <p>Addr: Center for Computational Sciences and Engineering,</p>
+    <p>Lawrence Berkeley National Laboratory,</p>
     <p>1 Cyclotron Road,</p>
     <p>Berkeley, CA 94720.</p>
 
