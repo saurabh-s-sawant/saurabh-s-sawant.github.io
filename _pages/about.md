@@ -21,15 +21,27 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <div align="justify">
-My primary interest lies in high-perfomance computing for scientific applications.
-In the past ten years, I have developed scalable C++ software for applications ranging from nanoelectronics to hypersonics using particle-based as well as matrix-based numerical methods.
+My passion lies in tackling complex scientific challenges that have a meaningful and far-reaching impact on society. Trained as a computational scientist, I thrive on collaborating with experts from varied backgrounds, including theoreticians and experimentalists, to solve challenging problems.
 </div>
 <b></b>
 
 <div align="justify">
-In my current role as a postdoctoral scholar at Lawrence Berkeley National Lab, I am leading an effort on developing exascale electrostatic--quantum transport solver, eXstatic, for modeling next-generation nanoscale field effect transistors. The code employs the nonequilibrium Green's function method to capture quantum effects in nanodevices. Prior to this work, I contributed to the development of software stack for electrodynamic applications in microelectronics.
+Central to most of my projects is high-performance computing (HPC). Over the past decade, I have honed my skills in developing scalable C++ software tailored for a wide range of scientific applications, spanning from hypersonics to nanoelectronics. My expertise encompasses both particle-based and matrix-based numerical methods, enabling me to address diverse problems.
 </div>
 <b></b>
+
 <div align="justify">
-I earned my Ph.D. in the Aerospace Engineering from the University of Illinois Urbana-Champaign, where I developed massively scalable software for solving the Boltzmann Transport equation using the Direct Simulation Monte Carlo (DSMC) method to study instabilities in hypersonic flows. 
-In addition, I developed software for implementing data-driven methods such as proper orthogonal decomposition and solving eigenvalue problems arising from the linear stability analysis of fluid flows.</div>
+In my current role as a postdoctoral scholar at Lawrence Berkeley National Lab, I lead the development of an exascale electrostatic-quantum transport solver for modeling nanomaterials. Leveraging the nonequilibrium Green's function method & HPC, our code enables analysis of charge transport within intricate 3D structures. Prior to this endeavor, I worked on electrodynamic modeling of microelectronic circuits using Maxwell's equations.
+</div>
+<b></b>
+
+<div align="justify">
+I earned my M.S. and Ph.D. in Aerospace Engineering from the University of Illinois Urbana-Champaign, where I worked on modeling hypersonic flows.
+I lead the development of massively scalable software for solving the Boltzmann Transport equation, using the Direct Simulation Monte Carlo (DSMC) method. 
+Using this tool, I studied challenging problems at the intersection of statistical mechanics, hypersonics, and linear stability analysis, such as modeling 3D shock-wave/boundary-layer interactions.
+</div>
+
+<div align="justify">
+<br>
+Overview of my projects is provided on the <a href="https://saurabh-s-sawant.github.io/projects/">Research</a> page.
+</div>
