@@ -1,3 +1,16 @@
+- title: Summary
+  type: time_table
+  contents:
+    - title: <div align="justify">10 years of experience in developing highly scalable software using C++, MPI, and GPUs for diverse scientific problems:</div>
+      description: #
+        - Specialization in hypersonics during M.S. & Ph.D. in aerospace engineering.
+        - Focus on nanoelectronics during postdoctoral work.
+    - title: Experience in working on diverse modeling techniques, including&#58;
+      description: #
+        - Specialization in kinetic methods for high-temperature molecular gas transport.
+        - Linear stability analyses of hypersonic flows.
+        - Matrix-based algorithms for modeling quantum charge transport in nanomaterials.
+
 - title: Work Experience
   type: time_table
   contents:
@@ -8,13 +21,17 @@
       description: #|
         - title: Scientific software development & <b>high-performance computing</b>
           contents:
-            - using <b>MPI, GPU, C++, Python</b> for analysis
-            - <b>scaling, profiling, and performance optimization strategies</b>
-        - title: <b>Quantum charge transport</b> in the next-generation transistors (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>)
+            - Use of <b>MPI, GPU, modern C++ (including templates), Python</b> for analysis, <a href='https://amrex-codes.github.io/amrex/'>AMReX</a> library
+            - <b>Scaling, profiling,</b> and <b>performance optimization</b> strategies for <b>matrix-based algorithms</b> and <b>root-finding</b> methods
+        - title: Modeling of <b>self-consistent quantum transport</b> in nanomaterials (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>)
           contents:
-            - nonequilibrium Green's function (<b>NEGF</b>) method for electrons and phonons
-            - electrostatics with <b>embedded boundaries</b>
-            - parallel <b>matrix-based algorithms</b> using MPI, GPU, and the <b>AMReX</b> library
+            - Modeling of carbon nanotube field effect transistors (<b>CNTFET</b>)
+            - Nonequilibrium Green's function (<b>NEGF</b>) method for electrons and phonons
+            - Electrostatics with <b>embedded boundaries</b>
+        - title: Modeling of <b>electromagnetic waves</b> in microelectronic circuits      
+          contents:
+            - Finite difference time domain (<b>FDTD</b>) method 
+            - <b>S-matrix</b> computations
 
     - title: Graduate Research Assistant (Ph.D. & M.S.)
       institution: University of Illinois Urbana-Champaign
@@ -23,18 +40,18 @@
       description: #|
         - title: Scientific software development & High-performance computing
           contents:
-            - using <b>MPI, GPU, C++, Python</b> for analysis
-            - scaling, profiling, and performance optimization strategies
+            - Use of <b>MPI, GPU, C++, Python & Bash</b>
+            - <b>Scaling, profiling,</b> and <b>performance optimization</b> strategies for <b>statistical</b> methods
+            - Adaptive mesh refinement (<b>AMR</b>) of octree grids with <b>embedded boundaries</b>
         - title: <b>Kinetic transport</b> in high temperature gas dynamics
           contents:
-            - parallel <b>statistical algorithms</b>
-            - adaptive mesh refinement (<b>AMR</b>) of octree grids with <b>embedded boundaries</b>
-            - direct simulation Monte Carlo (<b>DSMC</b>) method
-            - modeling of shock-wave/boundary-layer interactions (<b>SWBLI</b>)
-        - title: Data-driven methods and stability theory for <b>modal analysis</b> in hypersonic flows
+            - Direct Simulation Monte Carlo (<b>DSMC</b>) method
+            - Modeling of shock-wave/boundary-layer interactions (<b>SWBLI</b>)
+            - Multi-scale modeling of <b>thermal protection material</b> on spacecraft heatshield
+        - title: Linear stability analysis of hypersonic flows
           contents:
-            - <b>generalized eigenvalue problems</b> arising from linear stability analysis
-            - parallel <b>communication-reducing algorithms</b> for proper-orthogonal and dynamic-mode decomposition
+            - Generalized <b>eigenvalue</b> problems
+            - Parallel <b>communication-reducing</b> algorithms for proper-orthogonal and dynamic-mode decomposition
 
 - title: Education
   type: time_table
@@ -44,10 +61,35 @@
       location: Champaign, IL
       year: 2022
       description: | 
-        <u>Thesis:</u> <a href="https://www.ideals.illinois.edu/items/124505"> The development of kinetic models and simulation methods to study molecular fluctuations, modal response, and shock-laminar separation bubble instabilities </a>
+        <b>Thesis:</b> <a href="https://www.ideals.illinois.edu/items/124505"> The development of kinetic models and simulation methods to study molecular fluctuations, modal response, and shock-laminar separation bubble instabilities </a>
     - title: M.S. in Aerospace Engineering
       institution: University of Illinois Urbana-Champaign
       location: Champaign, IL
       year: 2015
       description: | 
-        <u>Thesis:</u> <a href="https://www.ideals.illinois.edu/items/124505"> Development of AMR/octree Direct Simulation Monte Carlo (DSMC) approach for shock-dominated flows </a>
+        <b>Thesis:</b> <a href="https://www.ideals.illinois.edu/items/124505"> Development of AMR/octree Direct Simulation Monte Carlo (DSMC) approach for shock-dominated flows </a>
+    - title: B.E. in Mechanical Engineering 
+      institution: Vidyavardhini's College of Engg. & Tech., Mumbai University
+      location: Mumbai, India
+      year: 2011
+      description: | 
+        <b>Thesis:</b> Efficiency analysis of Aerospike nozzles.
+        
+- title: Awards and Achievements
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Attendee, Argonne Training Program on Extreme Scale Computing
+    - year: 2020 - 2022
+      items:
+        - Recipient, FRONTERA Leadership Resource Allocation (LRAC) award
+    - year: 2020
+      items:
+        - Recipient, Aerospace Engineering Outstanding Graduate Student Fellowship
+    - year: 2020
+      items:
+        - Selectee, MAVIS Future Faculty Fellows (MF3) Program
+    - year: 2011
+      items:
+        - Recipient, Best Undergraduate Project award
