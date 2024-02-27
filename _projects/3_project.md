@@ -42,8 +42,8 @@ The magnitude of normalized mass density gradient showing shock-wave/boundary-la
 </div></div>
 
 <div align="justify">
-In terms of physics, our focus was on the three-dimensional linear instability of the laminar separation bubble induced by SWBLIs. Interestingly, we discovered that this instability permeates the internal structure of the separation and detached shock layers, manifesting as spanwise-periodic *cats-eye* patterns in the amplitude functions of all linear flow perturbations. The growth rate and spanwise periodicity length of linear disturbances in the shock layers are found to be identical with those computed within the structures that grow exponentially inside the laminar separation bubble, indicating that the separation and detached shock layers are an integral part of the unstable global mode.
-Linear amplification of the most unstable three-dimensional flow perturbations leads to synchronization of *low-frequency unsteadiness* of the separation bubble with unsteadiness of the separation- and detached shock layers and the triple point formed at their intersection, with Strouhal number of 𝑆𝑡 ≈ 0.028. 
+In terms of physics, our focus was on the three-dimensional linear instability of the laminar separation bubble induced by SWBLIs. Interestingly, we discovered that this instability permeates the internal structure of the separation and detached shock layers, manifesting as spanwise-periodic <strong>cats-eye patterns</strong> in the amplitude functions of all linear flow perturbations. The growth rate and spanwise periodicity length of linear disturbances in the shock layers are found to be identical with those computed within the structures that grow exponentially inside the laminar separation bubble, indicating that the separation and detached shock layers are an integral part of the unstable global mode.
+Linear amplification of the most unstable three-dimensional flow perturbations leads to synchronization of *low-frequency unsteadiness* of the separation bubble with unsteadiness of the separation- and detached shock layers and the triple point formed at their intersection, with Strouhal number of <strong>𝑆𝑡 ≈ 0.028</strong>. 
 These interesting findings are described in detail in {% cite sawant_doublewedge_2022 %}.
 </div>
 <br>
@@ -55,8 +55,15 @@ These interesting findings are described in detail in {% cite sawant_doublewedge
 </div>
 <div class="caption">
 <div align="justify">
-The movie shows spanwise periodic flow structures past the primary separation line observed in the normalized spanwise perturbation velocity. The movie starts playing from T=80, where T is the normalized "flow-time". 
+The movie shows spanwise periodic flow structures past the primary separation line observed in the normalized spanwise perturbation velocity. The movie starts playing from T=80, where T is the normalized "through-flow time". 
 The perturbation velocity is zero at the beginning of the simulation, yet over time small scale perturbations occur due to relaxation in the spanwise direction and these sinusoidal structure start to form with increasing magnitude. More importantly, we see that these structures are present inside the separation shock layer!
 </div></div>
 
+<div align="justify">
+<br>
+This flow was modeled using <strong>60 billion</strong> computational particles and <strong>4.5 billion</strong> adaptively refined computational cells for performing collisions.
+To accommodate billions of particles and cells, <strong>19.2 k MPI processors</strong> were used in this simulation. The spanwise-periodic simulation takes ∼5.5 h per through-flow time (T) using Intel Xeon Platinum 8280 (‘Cascade Lake’) processors of the Frontera supercomputer (2019) and ∼14 h per flow time using Intel Xeon Platinum 8160 (‘Skylake’) processors of the Stampede2 supercomputer (2019). The overall cost of the simulation up to T = 190 required <strong>~870 k node hours (∼43.8 million core hours) of computing time</strong>.
+</div>
+
+<br>
 (Special thanks to <a href='https://www.linkedin.com/in/theofilis/?originalSubdomain=uk'>Vassilis Theofilis</a> for his tremendous help in this work.)
