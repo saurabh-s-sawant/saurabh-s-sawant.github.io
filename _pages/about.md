@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 <div align="justify">
-My passion lies in tackling complex scientific challenges that have a meaningful and far-reaching impact. Trained as a computational scientist, I thrive on collaborating with experts from varied backgrounds, including theoreticians and experimentalists, to solve challenging problems.
+I am passionate about tackling complex scientific challenges that have a meaningful and far-reaching impact. Trained as a computational scientist, I thrive on collaborating with experts from varied backgrounds, including theoreticians and experimentalists, to solve challenging problems.
 </div>
 <b></b>
 
