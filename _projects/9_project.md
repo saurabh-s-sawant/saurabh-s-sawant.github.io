@@ -11,7 +11,7 @@ related_publications: true
 <div align="justify">
 For a small side project during my Ph.D., I got an opportunity to work on the <a href="https://flash.rochester.edu/site/flashcode/">FLASH</a> solver, which is an open-source, scalable simulation tool for model compressible flow problems in astrophysical environments. 
 The goal was to modify the particle module in FLASH for modeling particle lifting mechanisms due to gas-particle interactions, as well as plasma-particle interactions.
-I made a small contribution to the first part, while working with Akhil Marayikkottu, who led the project to completion and published a paper {% cite marayikkottu_2021 %}.
+I made a small contribution to the first part, while working with <a href="https://www.akhilmarayikkottu.com/">Akhil Marayikkottu</a>, who led the project to completion and published a paper {% cite marayikkottu_2021 %}.
 As a validation, I modeled particle lifting when a normal shock passes over a particle. 
 As shown in 1(b), the result compares well with experiments.
 </div>
