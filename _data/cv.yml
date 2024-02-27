@@ -1,15 +1,16 @@
 - title: Summary
   type: time_table
   contents:
-    - title: <div align="justify">10 years of experience in developing highly scalable software using C++, MPI, and GPUs for diverse scientific problems:</div>
+    - title: <div align="justify">10+ years of experience in developing highly scalable software using C++, message-passing-interface (MPI), and GPUs for diverse scientific applications:</div>
       description: #
-        - Specialization in hypersonics during M.S. & Ph.D. in aerospace engineering.
-        - Focus on nanoelectronics during postdoctoral work.
+        - Specialization in hypersonic flows during Ph.D. projects.
+        - Focus on nanoelectronics while contributing to open-source software during \\postdoctoral work.
     - title: Experience in working on diverse modeling techniques, including&#58;
       description: #
         - Specialization in kinetic methods for high-temperature molecular gas transport.
-        - Linear stability analyses of hypersonic flows.
-        - Matrix-based algorithms for modeling quantum charge transport in nanomaterials.
+        - Expertise in matrix-based algorithms for quantum transport in nanomaterials.
+        - Experience in linear stability analyses of compressible flows.
+    - title: 7+ years of experience contributing to collaborative, interdisciplinary projects.
 
 - title: Work Experience
   type: time_table
@@ -19,39 +20,41 @@
       location: Berkeley, CA
       year: 2022 - Present
       description: #|
-        - title: Scientific software development & <b>high-performance computing</b>
+        - Interdisciplinary collaborations through DOE-funded co-design projects.
+        - title: Scientific, open-source software development & <b>high-performance computing.</b>
           contents:
-            - Use of <b>MPI, GPU, modern C++ (including templates), Python</b> for analysis, <a href='https://amrex-codes.github.io/amrex/'>AMReX</a> library
-            - <b>Scaling, profiling,</b> and <b>performance optimization</b> strategies for <b>matrix-based algorithms</b> and <b>root-finding</b> methods
-        - title: Modeling of <b>self-consistent quantum transport</b> in nanomaterials (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>)
+            - Use of <b>MPI, GPU, modern C++ (including templates), Python</b> for analysis, <a href='https://amrex-codes.github.io/amrex/'>AMReX</a> library.
+            - <b>Scaling, profiling,</b> and <b>performance optimization</b> strategies for <b>matrix-based algorithms</b> and <b>root-finding</b> methods.
+        - title: Modeling of <b>self-consistent quantum transport</b> in nanomaterials (<a href="https://github.com/AMReX-Microelectronics/eXstatic">Quantum-eXstatic</a>).
           contents:
-            - Modeling of carbon nanotube field effect transistors (<b>CNTFET</b>)
-            - Nonequilibrium Green's function (<b>NEGF</b>) method for electrons and phonons
-            - Electrostatics with <b>embedded boundaries</b>
-        - title: Modeling of <b>electromagnetic waves</b> in microelectronic circuits      
+            - Modeling of carbon nanotube field effect transistors (<b>CNTFET</b>).
+            - Nonequilibrium Green's function (<b>NEGF</b>) method for electrons and phonons.
+            - Electrostatics with <b>embedded boundaries</b>.
+        - title: Modeling of <b>electromagnetic waves</b> in microelectronic circuits.      
           contents:
-            - Finite difference time domain (<b>FDTD</b>) method 
-            - <b>S-matrix</b> computations
+            - Finite difference time domain (<b>FDTD</b>) method. 
+            - <b>S-matrix</b> characterization of transmission lines.
 
     - title: Graduate Research Assistant (Ph.D. & M.S.)
       institution: University of Illinois Urbana-Champaign
       location: Champaign, IL
       year: 2014 - 2022
       description: #|
-        - title: Scientific software development & High-performance computing
+        - Interdisciplinary collaborations through projects funded by ONR, AFOSR, NASA.
+        - title: Scientific software development & High-performance computing.
           contents:
-            - Use of <b>MPI, GPU, C++, Python & Bash</b>
-            - <b>Scaling, profiling,</b> and <b>performance optimization</b> strategies for <b>statistical</b> methods
-            - Adaptive mesh refinement (<b>AMR</b>) of octree grids with <b>embedded boundaries</b>
-        - title: <b>Kinetic transport</b> in high temperature gas dynamics
+            - Use of <b>MPI, GPU, C++, Python & Bash</b>.
+            - <b>Scaling, profiling,</b> and <b>performance optimization</b> strategies for <b>statistical</b> methods.
+            - Adaptive mesh refinement (<b>AMR</b>) of octree grids with <b>embedded boundaries</b>.
+        - title: <b>Kinetic transport</b> in high-temperature gas dynamics.
           contents:
-            - Direct Simulation Monte Carlo (<b>DSMC</b>) method
-            - Modeling of shock-wave/boundary-layer interactions (<b>SWBLI</b>)
-            - Multi-scale modeling of <b>thermal protection material</b> on spacecraft heatshield
-        - title: Linear stability analysis of hypersonic flows
+            - Direct Simulation Monte Carlo (<b>DSMC</b>) method.
+            - Modeling of shock-wave/boundary-layer interactions (<b>SWBLI</b>).
+            - Multi-scale modeling of <b>thermal protection material</b> on spacecraft's heatshield.
+        - title: Linear stability analyses of hypersonic flows.
           contents:
-            - Generalized <b>eigenvalue</b> problems
-            - Parallel <b>communication-reducing</b> algorithms for proper-orthogonal and dynamic-mode decomposition
+            - Generalized <b>eigenvalue</b> problems.
+            - Parallel <b>communication-reducing</b> algorithms for proper-orthogonal and dynamic-mode decomposition.
 
 - title: Education
   type: time_table
