@@ -32,13 +32,13 @@ Central to most of my projects is high-performance computing (HPC). Over the pas
 <b></b>
 
 <div align="justify">
-In my current role as a postdoctoral scholar at Lawrence Berkeley National Lab, I lead the development of an exascale electrostatic-quantum transport solver for modeling nanomaterials. Leveraging the nonequilibrium Green's function method & HPC, our code enables analysis of charge transport within intricate 3D structures. Prior to this endeavor, I worked on electrodynamic modeling of microelectronic circuits using Maxwell's equations.
+In my current role as a postdoctoral scholar at the Lawrence Berkeley National Lab, I lead the development of an exascale electrostatic-quantum transport solver for modeling nanomaterials. Leveraging the nonequilibrium Green's function method & HPC, our code enables analysis of charge transport within intricate 3D structures. Prior to this endeavor, I worked on electrodynamic modeling of microelectronic circuits using Maxwell's equations.
 </div>
 <b></b>
 
 <div align="justify">
 I earned my M.S. and Ph.D. in Aerospace Engineering from the University of Illinois Urbana-Champaign, where I worked on modeling hypersonic flows.
-I lead the development of massively scalable software for solving the Boltzmann Transport equation, using the Direct Simulation Monte Carlo (DSMC) method. 
+I led the development of massively scalable software for solving the Boltzmann Transport equation, using the Direct Simulation Monte Carlo (DSMC) method. 
 Using this tool, I studied challenging problems at the intersection of statistical mechanics, hypersonics, and linear stability analysis, such as modeling 3D shock-wave/boundary-layer interactions.
 </div>
 
