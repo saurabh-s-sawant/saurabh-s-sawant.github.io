@@ -81,9 +81,6 @@
 - title: Awards and Achievements
   type: time_table
   contents:
-    - year: 2022
-      items:
-        - Attendee, Argonne Training Program on Extreme Scale Computing
     - year: 2020 - 2022
       items:
         - Recipient, FRONTERA Leadership Resource Allocation (LRAC) award
@@ -96,3 +93,57 @@
     - year: 2011
       items:
         - Recipient, Best Undergraduate Project award
+
+- title: Certifications
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Design Patterns (Coursera <a href="https://drive.google.com/file/d/17U1-vfpIclr68GV3heU3XtVbQB0qDfMn/view"> certificate</a>)
+    - year: 2022
+      items:
+        - Argonne Training Program on Extreme Scale Computing <a href="https://drive.google.com/file/d/1nC3504nGwtYS1Kcq2Od2nCz_QsXWhDb4/view">(certificate)</a>
+
+- title: Select Academic Courses
+  type: nested_list
+  contents:
+    - title: Math, numerical modeling & analysis
+      items:
+        - Mathematical Methods I 
+        - Vector and Tensor Analysis 
+        - Uncertainty Quantification
+        - Atomic Scale Simulations
+        - Concurrent Matrix Computations
+        - Numerical Solutions Applied to Heat Transfer and Fluid Mechanics
+    - title: Physics
+      items:
+        - Physical Chemistry I
+        - Statistical Thermodynamics
+        - Molecular Gas Dynamics
+        - Introduction to Plasma Physics
+        - Foundation of Fluid Mechanics
+        - Aerospace Propulsion
+        - Advanced Gas Dynamics
+        - Finite Element Analysis
+
+        #- title: Academic Courses
+        #  type: nested_list
+        #  contents:
+        #    - title: Topic 1.
+        #      items:
+        #        - Aerospace Propulsion
+        #        - Advanced Gas Dynamics
+        #        - Statistical Thermodynamics
+        #        - Molecular Gas Dynamics
+        #        - Physical Chemistry I
+        #        - Introduction to Plasma Physics
+        #        - Foundation of Fluid Mechanics
+        #    - title: 
+        #      items:
+        #        - Mathematical Methods I
+        #        - Vector and Tensor Analysis
+        #        - Uncertainty Quantification
+        #        - Concurrent Matrix Computations
+        #        - Atomic Scale Simulations
+        #        - Numerical Solutions Applied to Heat Transfer and Fluid Mechanics
+        #        - Finite Element Analysis
