@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Type Erasure as a Design Pattern &#58; A Generic Materials Solver
 date: 2024-01-11 21:00:00
-description: an example of a type erasure
+description: Exploring possibility of using type erasure as a design pattern through an example of a generic materials solver. 
 tags: generic_programming
 categories: code
 featured: false
