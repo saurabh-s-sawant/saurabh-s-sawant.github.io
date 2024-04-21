@@ -64,7 +64,7 @@ classDiagram
     }
 ```
 
-#### Factory Method
+### Factory Method
 Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
 ```mermaid
 classDiagram
