@@ -3,7 +3,7 @@ layout: post
 title: Exploring Policy-Based Design &#58; A Customizable Message Logger in C++
 date: 2024-02-04 20:00:00
 description: Message logger offers three policies&#58; directing log messages to different outputs (such as console or file), adding optional message stamps (like timestamps), and supporting customization through callable functions (such as lambdas for specialized message formatting).
-tags: generic_programming
+tags: design_patterns
 categories: code
 featured: false
 giscus_comments: false
