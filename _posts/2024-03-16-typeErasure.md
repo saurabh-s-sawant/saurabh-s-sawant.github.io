@@ -50,31 +50,64 @@ int main()
     /* Each material is instantiated with its own constructor.
      * Here, the constructor argument defines number of unitcells.
      */
-    materials.emplace_back( CNT{4} ); 
+
+    materials.emplace_back( CNT{4} ); /* CNT stands for Carbon Nanotube */
     materials.emplace_back( Graphene{2} );
 
     computeAlgorithm(materials);
 }
-
-void computeAlgorithm(std::vector<Algorithm> const& materials) 
-{
-    /* Polymorphism in action. 
-     * step1 is executed for each material.
-     */
-    for(auto const& material: materials) {
-        computeStep1(material);
-    }
-}
-
-void computeStep1(Algorithm const& material) 
-{
-    /* Actual computations are delegated to */    
-    material.pimpl->computeStep1();
-}
 ```
-Here is the Algorithm class where all the magic happens.
+
+Materials are defined like this. Note that material classes do not know anything about the operations that will be done on them, e.g. *computeStep1()* of the *Algorithm*.
+```c++
+// materials.H
+
+#include "cnt.H"
+#include "graphene.H"
+```
 
 ```c++
+// cnt.H (High level in terms of dependency)
+
+class CNT {
+public:
+    CNT(int uc) : _unitcells{uc} {}
+
+    int get_unitcells() const { return _unitcells; }
+
+private:
+    int _unitcells;
+};
+```
+
+Implementations for these operations can be defined in separately, as follows.
+Here we define as free functions but they can be encapsulated in a namespace like AlgorithmSteps.
+
+```c++
+// materials_impl.H (Low level, implementation details)
+
+void computeStep1(CNT const&);
+void computeStep1(Graphene const&);
+```
+
+```c++
+// cnt_impl.cpp
+
+#include "materials_impl.H
+
+void computeStep1(CNT const& cnt) {
+    std::cout << "processing step 1 for CNT with unitcells: " << cnt.get_unitcells() << "\n";
+}
+```
+
+Finally, the Algorithm class is defined as follows, where all magic happens.
+
+```c++
+// algorithm.H (High level)
+
+#include "../materials/material.H"
+#include "materials_impl.H"
+
 class Algorithm {
 private:
     /* External polymorphism design pattern: allows C++ classes
@@ -114,11 +147,16 @@ private:
         T object;
     };
 
-    /* friend functions */
+    /* if material implementations of computeStep1 are defined in free functions
+     * we need a friend function here, which is injected in the namespace where
+     * Algorithm is defined (in this case, global scope).
+     */
     friend void computeStep1(Algorithm const& material);
 
     /* See that in the constructor, we store object we get as pointer to base.
-     * That means we type erasure what we store.
+     * That means we type erase T. T is only known in the constructor, and
+     * that is why we need a base class AlgorithmConcept to store it in some form,
+     * which in this case is a unique_ptr to base class.
      */
     std::unique_ptr<AlgorithmConcept> pimpl = nullptr;
 
@@ -157,10 +195,34 @@ public:
     Algorithm(Algorithm&& that) = default;
     Algorithm& operator=(Algorithm&& that) noexcept;
 };
+
+void computeAlgorithm(std::vector<Algorithm> const& materials);
 ```
 
+```c++
+// algorithm.cpp
 
-<span style="font-size: larger;"><b>**More**</b></span><br>
+void computeAlgorithm(std::vector<Algorithm> const& materials) 
+{
+    /* Polymorphism in action. 
+     * step1 is executed for each material.
+     */
+    for(auto const& material: materials) {
+        computeStep1(material);
+    }
+}
+
+void computeStep1(Algorithm const& material) 
+{
+    /* Actual computations are delegated to */    
+    material.pimpl->computeStep1();
+}
+```
+
+#### Workflow
+When computeStep1(material) is called in computeAlgorithm function above, it takes two indirections to execute computeStep1 for each material like CNT or Graphene. The first indirection happens at *computeStep1(Algorithm const&)*, where a pimpl pointer calls *computeStep1()* overriden virtual function, which then calls *::computeStep1(object)* for a given object or material. Note that we could have also used a member function of object, instead of a free function, it is our choice. You can also support a capability where it can first look for a free function and if does not exist then use a member function.
+
+#### More
 For details, please refer to:
 - Complete [Code](https://github.com/saurabh-s-sawant/cpp_exercises/tree/main/design/type_erasure) described in this blog.
 - [Breaking Dependencies: Type Erasure - A Design Analysis](https://www.youtube.com/watch?v=4eeESJQk-mw&t=2889s) by Klaus Iglberger (Absolutely amazing!)
