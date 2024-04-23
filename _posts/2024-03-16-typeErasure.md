@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring Type Erasure as a Design Pattern &#58; A Generic Materials Solver
+title: Exploring Type Erasure as a Design Pattern&#58; A Generic Materials Solver
 date: 2024-03-16 16:00:00
 description: Exploring possibility of using type erasure as a design pattern through an example of a generic materials solver. 
 tags: design_patterns
@@ -40,6 +40,9 @@ I would jump straight to main() and demonstrate what we can do with type erasure
 I can define a vector of materials that follow the steps of my particular algorithm, execute these steps polymorphically (that's what external polymorphism let's you do), completely decouple material details from the operations that may be performed on the material, and have flexibility for multiple implementations of those operations.
 
 ```c++
+#include "materials/materials.H"
+#include "algorithm_impl/algorithm.H"
+
 int main() 
 {
     /* Materials that we would Algorithm to be executed */
@@ -55,6 +58,10 @@ int main()
     materials.emplace_back( Graphene{2} );
 
     computeAlgorithm(materials);
+
+    /* We should be able to do the same with some other algorithm 
+     * on the same materials, if we would like. How nice?
+     */
 }
 ```
 
