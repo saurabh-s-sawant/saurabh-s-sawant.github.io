@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 <div align="justify">
-<a href='https://github.com/AMReX-Microelectronics/eXstatic'>ELEQTRONeX</a> is a framework for <strong>ele</strong>ctrostatic-<strong>q</strong>uantum <strong>tr</strong>ansport modeling <strong>o</strong>f <strong>n</strong>anomaterials at <strong>ex</strong>ascale, built using the <a href='https://amrex-codes.github.io/amrex/'>AMReX</a> library, currently supporting the modeling carbon nanotube field-effect transistors (CNTFETs) with multiple nanotubes. It is developed as part of a DOE-funded project called 'Codesign and Integration of Nanosensors on CMOS'. See this <a href='https://www.youtube.com/watch?v=snAeWpFTvrs'>overview video</a> for full scale of this project.
+<a href='https://github.com/AMReX-Microelectronics/ELEQTRONeX'>ELEQTRONeX</a> is a framework for <strong>ele</strong>ctrostatic-<strong>q</strong>uantum <strong>tr</strong>ansport modeling <strong>o</strong>f <strong>n</strong>anomaterials at <strong>ex</strong>ascale, built using the <a href='https://amrex-codes.github.io/amrex/'>AMReX</a> library, currently supporting the modeling carbon nanotube field-effect transistors (CNTFETs) with multiple nanotubes. It is developed as part of a DOE-funded project called 'Codesign and Integration of Nanosensors on CMOS'. See this <a href='https://www.youtube.com/watch?v=snAeWpFTvrs'>overview video</a> for full scale of this project.
 </div>
 <div align="justify">
 <br>
