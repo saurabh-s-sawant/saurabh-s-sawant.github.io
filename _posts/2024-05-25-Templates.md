@@ -27,7 +27,15 @@ featured: false
 | [nonmember_FT](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/templates/class_templates/friend/ex2_nonmember_function_template.cpp) || How to declare a template entity? -- implicity declaration of new function template |
 | [forward_declare_FT](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/templates/class_templates/friend/ex3_forward_declare_function_template.cpp) || How to declare a template entity? -- forward declaration of FT for the class and inside the class declare specialization of nonmember function template |
 
-<br> More examples will detailed comments will be added in time.
+<br>
+
+### Variadic Templates
+
+| Code             || Brief Information |
+| :--------------- || :---------------- |
+| [example1](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/templates/variadic_templates/example1.cpp) || Simple recursive print function. Difference in using ``sizeof...``operator with regular if versus compile-time if. |
+
+<br> More examples with detailed comments will be added in time.
 
 #### References
 - [C++ Templates: The Complete Guide (second ed.)](https://www.amazon.com/C-Templates-Complete-Guide-2nd/dp/0321714121) by Vandevoorde D., Josuttis N., Gregor D.
