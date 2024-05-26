@@ -44,7 +44,7 @@ To address this challenge, I developed a parallel solver for POD using C++ and t
 <div align="justify">
 <br>
 Figure (1) shows an example of using POD to filter DSMC noise {% cite sawant_doublewedge_2022 %}. The POD-reconstructed data exhibits the same spatial spanwise variation but contains very
-low statistical noise compared with the DSMC solution.
+low statistical noise compared with the DSMC solution. The size of matrix for each flow parameter was <strong>24 million x 400</strong>.
 </div>
 <br>
 
