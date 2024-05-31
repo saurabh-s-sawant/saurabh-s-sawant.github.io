@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We recently presented our on-going code development for an exascale Electrostatic-Quantum Transport framework in the International Workshop on Computational Nanotechnology ([IWCN](https://iwcn2023.uab.es/program.html)).
+Our electrostatic-quantum transport code development effort was presented in [IWCN](https://iwcn2023.uab.es/program.html) in Barcelona.
