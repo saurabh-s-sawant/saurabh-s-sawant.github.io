@@ -42,7 +42,7 @@ Our aim was to understand the role of material microstructure with its thermal r
 </div>
 <div class="caption">
 <div align="justify">
-Fig. 1. (a) An SEM image of <a href="https://scitechconnect.elsevier.com/the-space-between-voids-in-heat-shield-protecting-orion-spacecraft/">AVCOAT sample</a>. (b) A CAD model of microstructure approximating the SEM image with the one dimensional plates used in the walker simulations and finite volume cells for the MR solver. The DSMC simulation computational particles (filled circles) are designated by solid and hollow headed arrows for the boundary layer and pyrolysis species, respectively. (c) Schematic of the walker model showing walkers (unfilled circles) that are introduced to simulate a convective heat flux boundary (dashed arrows) and the evaluation of walker representation as radiative or conductive heat carriers (solid vs. open arrow heads) performed at the interface between two plates.
+Fig. 1. (a) An SEM image of AVCOAT sample. (b) A CAD model of microstructure approximating the SEM image with the one dimensional plates used in the walker simulations and finite volume cells for the MR solver. The DSMC simulation computational particles (filled circles) are designated by solid and hollow headed arrows for the boundary layer and pyrolysis species, respectively. (c) Schematic of the walker model showing walkers (unfilled circles) that are introduced to simulate a convective heat flux boundary (dashed arrows) and the evaluation of walker representation as radiative or conductive heat carriers (solid vs. open arrow heads) performed at the interface between two plates.
 </div></div>
 
 <div align="justify">
