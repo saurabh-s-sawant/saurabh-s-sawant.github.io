@@ -8,7 +8,6 @@ category: Postdoc
 related_publications: false
 ---
 
-
 <div align="justify">
 Modeling and characterization of electromagnetic wave interactions with microelectronic devices to derive network parameters has been a widely used practice in the electronic industry. However, as these devices become increasingly miniaturized with finer-scale geometric features, computational tools must make use of manycore/GPU architectures to efficiently resolve length and time scales of interest. 
 </div>
@@ -27,4 +26,3 @@ This has been the focus of our open-source solver, <a href="https://github.com/A
 <div align="justify">
 Left: A microscale transmission line with a Z-directional electric field excitation for computing S-matrix between ports (1) and (2). Bottom Right: Components of S-matrix as a function of frequency. Top Right: Weak-scaling efficiency of ARTEMIS on NVIDIA A100 GPUs using NERSC's Perlmutter supercomputer.
 </div></div>
-

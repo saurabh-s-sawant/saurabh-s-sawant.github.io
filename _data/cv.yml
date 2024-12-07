@@ -30,9 +30,9 @@
             - Modeling of carbon nanotube field effect transistors (<b>CNTFET</b>).
             - Nonequilibrium Green's function (<b>NEGF</b>) method for electrons and phonons.
             - Electrostatics with <b>embedded boundaries</b>.
-        - title: Modeling of <b>electromagnetic waves</b> in microelectronic circuits.      
+        - title: Modeling of <b>electromagnetic waves</b> in microelectronic circuits.
           contents:
-            - Finite difference time domain (<b>FDTD</b>) method. 
+            - Finite difference time domain (<b>FDTD</b>) method.
             - <b>S-matrix</b> characterization of transmission lines.
 
     - title: Graduate Research Assistant (Ph.D. & M.S.)
@@ -63,21 +63,21 @@
       institution: University of Illinois Urbana-Champaign
       location: Champaign, IL
       year: 2022
-      description: | 
+      description: |
         <b>Thesis:</b> <a href="https://www.ideals.illinois.edu/items/124505"> The development of kinetic models and simulation methods to study molecular fluctuations, modal response, and shock-laminar separation bubble instabilities </a>
     - title: M.S. in Aerospace Engineering
       institution: University of Illinois Urbana-Champaign
       location: Champaign, IL
       year: 2015
-      description: | 
+      description: |
         <b>Thesis:</b> <a href="https://www.ideals.illinois.edu/items/124505"> Development of AMR/octree Direct Simulation Monte Carlo (DSMC) approach for shock-dominated flows </a>
-    - title: B.E. in Mechanical Engineering 
+    - title: B.E. in Mechanical Engineering
       institution: Vidyavardhini's College of Engg. & Tech., Mumbai University
       location: Mumbai, India
       year: 2011
-      description: | 
+      description: |
         <b>Thesis:</b> Efficiency analysis of Aerospike nozzles.
-        
+
 - title: Awards and Achievements
   type: time_table
   contents:
@@ -109,8 +109,8 @@
   contents:
     - title: Math, numerical modeling & analysis
       items:
-        - Mathematical Methods I 
-        - Vector and Tensor Analysis 
+        - Mathematical Methods I
+        - Vector and Tensor Analysis
         - Uncertainty Quantification
         - Atomic Scale Simulations
         - Concurrent Matrix Computations
@@ -138,7 +138,7 @@
         #        - Physical Chemistry I
         #        - Introduction to Plasma Physics
         #        - Foundation of Fluid Mechanics
-        #    - title: 
+        #    - title:
         #      items:
         #        - Mathematical Methods I
         #        - Vector and Tensor Analysis

@@ -44,4 +44,3 @@ The code uses message passing interface (MPI) for parallel communication. The pa
 To group the files from multiple processors generated in Output, the python script groupPlanes.py is provided.
 </div>
 <br>
-

@@ -29,4 +29,3 @@ As shown in 1(b), the result compares well with experiments.
 <div align="justify">
 Fig. 1.(a) An instance of shock tube simulation showing important flow features and the trajectory of a lifted particle. (b) Comparison of particle trajectory with numerical results of Gosteev & Fedorov (2003) and experiments of Merzkirch & Bracht (1978).
 </div></div>
-

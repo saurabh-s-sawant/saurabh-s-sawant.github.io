@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <span style="text-transform:uppercase;">F</span>luctuations in a <span style="text-transform:uppercase;">1D</span>-shock 
+title: <span style="text-transform:uppercase;">F</span>luctuations in a <span style="text-transform:uppercase;">1D</span>-shock
 description: Low-frequency fluctuations in the internal structure of 1D shock arising from bimodality of energy density functions
 img: assets/img/projects/oneDshock/pdf_fluctuations.gif
 importance: 2

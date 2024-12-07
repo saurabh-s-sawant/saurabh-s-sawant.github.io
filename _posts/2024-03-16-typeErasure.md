@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Type Erasure as a Design Pattern&#58; A Generic Materials Solver
 date: 2024-03-16 16:00:00
-description: Exploring possibility of using type erasure as a design pattern through an example of a generic materials solver. 
+description: Exploring possibility of using type erasure as a design pattern through an example of a generic materials solver.
 tags: design_patterns C++
 categories: code
 featured: false
@@ -36,14 +36,14 @@ Following his video, here is the dummy code I wrote. If I had come across this t
 (On a side note) Althogh the Devin AI is learning to code, I highly doubt it would discover such design strategies on its own. So, the idea of AI replacing developers remains more of a wishlist for now.
 
 <span style="font-size: larger;"><b>**Type Erasure in Action**</b></span><br>
-I would jump straight to main() and demonstrate what we can do with type erasures. 
+I would jump straight to main() and demonstrate what we can do with type erasures.
 I can define a vector of materials that follow the steps of my particular algorithm, execute these steps polymorphically (that's what external polymorphism let's you do), completely decouple material details from the operations that may be performed on the material, and have flexibility for multiple implementations of those operations.
 
 ```c++
 #include "materials/materials.H"
 #include "algorithm_impl/algorithm.H"
 
-int main() 
+int main()
 {
     /* Materials that we would Algorithm to be executed */
     using Materials = std::vector<Algorithm>;
@@ -59,13 +59,14 @@ int main()
 
     computeAlgorithm(materials);
 
-    /* We should be able to do the same with some other algorithm 
+    /* We should be able to do the same with some other algorithm
      * on the same materials, if we would like. How nice?
      */
 }
 ```
 
-Materials are defined like this. Note that material classes do not know anything about the operations that will be done on them, e.g. *computeStep1()* of the *Algorithm*.
+Materials are defined like this. Note that material classes do not know anything about the operations that will be done on them, e.g. _computeStep1()_ of the _Algorithm_.
+
 ```c++
 // materials.H
 
@@ -120,29 +121,29 @@ private:
     /* External polymorphism design pattern: allows C++ classes
      * unrelated by inheritance and/or having no virtual methods to be
      * created polymorphically.
-     * We create a interface, AlgorithmConcept, and 
+     * We create a interface, AlgorithmConcept, and
      * a derived class template, AlgorithmModel.
      * Algorithm model has a constructor that takes some T and uses it.
      */
     struct AlgorithmConcept {
         virtual ~AlgorithmConcept() {}
-        
+
         /* Steps of this algorithm concept, such as this,
          * are the affordances required by the derived class.
          */
         virtual void computeStep1() const = 0;
-        
+
         /* Prototype design pattern: clone function will return a copy of
          * whatever stored in the derived class in the form of a unique_ptr
          * to AlgorithmConcept.
          */
-        virtual std::unique_ptr<AlgorithmConcept> clone () const = 0;       
+        virtual std::unique_ptr<AlgorithmConcept> clone () const = 0;
     };
 
     template<typename T>
     struct AlgorithmModel : public AlgorithmConcept {
         AlgorithmModel(T&& args) : object{std::forward<T>(args)} {}
-        
+
         std::unique_ptr<AlgorithmConcept> clone() const override {
             return std::make_unique<AlgorithmModel>(*this);
         }
@@ -150,7 +151,7 @@ private:
         void computeStep1() const override {
             ::computeStep1(object); // Affordances required by type T
         }
-        
+
         T object;
     };
 
@@ -177,7 +178,7 @@ public:
     template<typename T>
     Algorithm(T&& args) : pimpl{ std::make_unique<AlgorithmModel<T>>(std::forward<T>(args)) } {}
 
-    /* How to copy an object when we have erased the type of the object? 
+    /* How to copy an object when we have erased the type of the object?
      * Using clone functions! Prototype design pattern.
      */
     Algorithm(Algorithm const& that) {
@@ -209,9 +210,9 @@ void computeAlgorithm(std::vector<Algorithm> const& materials);
 ```c++
 // algorithm.cpp
 
-void computeAlgorithm(std::vector<Algorithm> const& materials) 
+void computeAlgorithm(std::vector<Algorithm> const& materials)
 {
-    /* Polymorphism in action. 
+    /* Polymorphism in action.
      * step1 is executed for each material.
      */
     for(auto const& material: materials) {
@@ -219,18 +220,21 @@ void computeAlgorithm(std::vector<Algorithm> const& materials)
     }
 }
 
-void computeStep1(Algorithm const& material) 
+void computeStep1(Algorithm const& material)
 {
-    /* Actual computations are delegated to */    
+    /* Actual computations are delegated to */
     material.pimpl->computeStep1();
 }
 ```
 
 #### Workflow
-When computeStep1(material) is called in computeAlgorithm function above, it takes two indirections to execute computeStep1 for each material like CNT or Graphene. The first indirection happens at *computeStep1(Algorithm const&)*, where a pimpl pointer calls *computeStep1()* overriden virtual function, which then calls *::computeStep1(object)* for a given object or material. Note that we could have also used a member function of object, instead of a free function, it is our choice. You can also support a capability where it can first look for a free function and if does not exist then use a member function.
+
+When computeStep1(material) is called in computeAlgorithm function above, it takes two indirections to execute computeStep1 for each material like CNT or Graphene. The first indirection happens at _computeStep1(Algorithm const&)_, where a pimpl pointer calls _computeStep1()_ overriden virtual function, which then calls _::computeStep1(object)_ for a given object or material. Note that we could have also used a member function of object, instead of a free function, it is our choice. You can also support a capability where it can first look for a free function and if does not exist then use a member function.
 
 #### More
+
 For details, please refer to:
+
 - Complete [Code](https://github.com/saurabh-s-sawant/cpp_exercises/tree/main/design_patterns/type_erasure) described in this blog.
 - [Breaking Dependencies: Type Erasure - A Design Analysis](https://www.youtube.com/watch?v=4eeESJQk-mw&t=2889s) by Klaus Iglberger (Absolutely amazing!)
 - [Breaking Dependencies - C++ Type Erasure - The Implementation Detail](https://www.youtube.com/watch?v=qn6OqefuH08&t=1381s) by Klaus Iglberger (another relevant talk).

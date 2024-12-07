@@ -66,6 +66,3 @@ Figure 4. illustrates the indentification of cut-cells of an AMR/octree grid emb
 <div align="justify">
 Fig. 3. The cut-cells formed through the intersection of triangulated embedded boundary and leaf cells of AMR/octree grid. 
 </div></div>
-
-
-

@@ -77,10 +77,10 @@ f_1 = \Re\left[ \text{sech}(x+3) \exp{(-0.1 t + i 2.3t)}\right]
 f_2 = \Re\left[ \frac{2 sech(x)}{tanh(x)} \exp{(-0.2t + i 2.8t)}\right]
 \end{equation}
 
-Applying DMD to f for modal decomposition correctly recovers underlying eigenvectors and eigenvalues. 
+Applying DMD to f for modal decomposition correctly recovers underlying eigenvectors and eigenvalues.
+
 </div>
 <br>
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -98,5 +98,3 @@ Applying DMD to f for modal decomposition correctly recovers underlying eigenvec
 Fig. 1. (a) Function f=f<sub>1</sub> + f<sub>2</sub>. (b) Eigenvectors and (c) continuous time eigenvalues obtained from the DMD algorithm.
 </div>
 </div>
-
-
