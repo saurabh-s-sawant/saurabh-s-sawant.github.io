@@ -30,7 +30,7 @@ At the kinetic level, collisions between boundary layer and pyrolysis gases, alo
 <div align="justify">
 <br>
 Traditionally, thermal responses of TPS have been explored using volume-averaged material response (MR) solvers, categorized as type-1, 2, or 3, based on modeling intricacy. However, these approaches do not model TPS material micro-morphology.
-We investigated a class of TPS materials similar to <a href="https://scitechconnect.elsevier.com/the-space-between-voids-in-heat-shield-protecting-orion-spacecraft/">AVCOAT</a> using a multi-scale kinetic approach, combining Direct Simulation Monte Carlo (DSMC) for convective heat transfer modeling and a stochastic random walk method for conduction and radiation modeling. 
+We investigated a class of TPS materials similar to AVCOAT using a multi-scale kinetic approach, combining Direct Simulation Monte Carlo (DSMC) for convective heat transfer modeling and a stochastic random walk method for conduction and radiation modeling. 
 Our aim was to understand the role of material microstructure with its thermal response.
 </div>
 <br>

@@ -231,7 +231,7 @@ When computeStep1(material) is called in computeAlgorithm function above, it tak
 
 #### More
 For details, please refer to:
-- Complete [Code](https://github.com/saurabh-s-sawant/cpp_exercises/tree/main/design/type_erasure) described in this blog.
+- Complete [Code](https://github.com/saurabh-s-sawant/cpp_exercises/tree/main/design_patterns/type_erasure) described in this blog.
 - [Breaking Dependencies: Type Erasure - A Design Analysis](https://www.youtube.com/watch?v=4eeESJQk-mw&t=2889s) by Klaus Iglberger (Absolutely amazing!)
 - [Breaking Dependencies - C++ Type Erasure - The Implementation Detail](https://www.youtube.com/watch?v=qn6OqefuH08&t=1381s) by Klaus Iglberger (another relevant talk).
 - **Hands-On Design Patterns with C++** by Fedor Pikus for details on type erasures.

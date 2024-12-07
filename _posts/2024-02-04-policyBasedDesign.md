@@ -14,7 +14,7 @@ toc:
 
 Policy-based design is a versatile design pattern that underpins many useful features in modern C++, such as smart pointers. 
 Despite its resourcefulness, I never delved into it during my work developing scientific codes.Intrigued by its potential, I decided to explore its application by creating a simple message logger that could be customized to suit user needs. 
-[Here](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/design/policy_based_design/ex1_msglogger.cpp) is the github link to the code.
+[Here](https://github.com/saurabh-s-sawant/cpp_exercises/blob/main/design_patterns/policy_based_design/ex1_msglogger.cpp) is the GitHub link to the code.
 
 Before diving into the specifics, let's review the context in which this design pattern shines.
 
